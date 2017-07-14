@@ -1,12 +1,18 @@
+
+| [Website](http://links.otrenav.com/website) | [Twitter](http://links.otrenav.com/twitter) | [LinkedIn](http://links.otrenav.com/linkedin)  | [GitHub](http://links.otrenav.com/github) | [GitLab](http://links.otrenav.com/gitlab) | [CodeMentor](http://links.otrenav.com/codementor) |
+
+---
+
 # Audio cross-correlation analysis
 
-- Developed by Omar Trejo
-- Developed for client (JD, CM)
+- Omar Trejo
 - August, 2016
 
 ## Objective
 
-The first time I worked on this project it was to Downsample WAV files and to provide cross-correlation analysis. The second time I worked on these was to add support for HDF5 file format.
+The first time I worked on this project it was to Downsample WAV files and to
+provide cross-correlation analysis. The second time I worked on these was to add
+support for HDF5 file format.
 
 ## How to use this scripts
 
@@ -50,3 +56,9 @@ I'll only explain the general procedure to use them.
     This command will create a graph that shows the correlation analysis (it
     will be stored in the "results" directory and will print the correlation
     data to the terminal.
+
+---
+
+> "The best ideas are common property."
+>
+> —Seneca
