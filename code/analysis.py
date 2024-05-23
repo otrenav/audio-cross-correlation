@@ -83,6 +83,7 @@ Author
 - Omar Trejo (otrenav@gmail.com)
 """
 
+import os
 import sys
 import numpy
 import scipy.signal
@@ -125,7 +126,9 @@ class Analysis(object):
             spaces['three'], self.correlation, 'black'
         )
         figure.tight_layout()
-        figure.savefig(self._get_png_file_output())
+        png_path = self._get_png_file_output()
+        os.makedirs(os.path.dirname(png_path), exist_ok=True)
+        figure.savefig(png_path)
 
     def print_data(self, which_data):
         """Print data
